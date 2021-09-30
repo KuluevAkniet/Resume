@@ -1,0 +1,248 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.resume {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header {
+  width: 400px;
+  height: 100vh;
+  background-color: #4171a3;
+}
+.header__container {
+  width: 400px;
+  height: 750px;
+  background-color: #4171a3;
+  position: relative;
+  top: 5%;
+}
+.header__info {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  background: ghostwhite;
+  position: relative;
+  left: 10%;
+}
+.header-subtitle {
+  border-radius: 10px solid;
+}
+.header__image {
+  width: 300px;
+  height: 300px;
+  background-image: url("../image/7kvdfgrVQtY.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header__contact {
+  width: 300px;
+  height: 500px;
+  padding: 5%;
+  position: relative;
+  top: 10%;
+}
+.header__contact-media {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__contact-media img {
+  max-width: 8%;
+}
+.header__contact-social {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__contact-tel {
+  font-family: " Geneva, Arial, Helvetica, sans-serif;";
+  font-size: large;
+  color: ghostwhite;
+  line-height: 30px;
+  position: relative;
+  left: 10px;
+}
+.header__contact-social img {
+  max-width: 8%;
+}
+.header__contact-telegram {
+  font-family: "Geneva, Arial, Helvetica, sans-serif";
+  font-size: 20px;
+  color: ghostwhite;
+  line-height: 30px;
+  position: relative;
+  left: 10px;
+  top: 10%;
+}
+.header__contact-nearly {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__contact-mail {
+  font-family: "Geneva, Arial, Helvetica, sans-serif";
+  font-size: 20px;
+  color: ghostwhite;
+  line-height: 30px;
+  position: relative;
+  left: 10px;
+}
+.header__contact-nearly img {
+  max-width: 8%;
+}
+.header__contact-text {
+  position: relative;
+  top: 25%;
+  font-family: "Geneva, Arial, Helvetica, sans-serif";
+  color: ghostwhite;
+}
+.header__contact-subtitle {
+  width: 50px;
+  height: 50px;
+}
+
+.form {
+  width: 100%;
+  padding: 50px;
+}
+.form__portfolio {
+  width: 700px;
+  height: 280px;
+  background-color: ghostwhite;
+  position: relative;
+  left: 50%;
+  bottom: 24%;
+  border-radius: 50px;
+}
+.form__title {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form__bag {
+  width: 700px;
+  height: auto;
+  background-color: #4171a3;
+  position: relative;
+  top: 15px;
+  border-radius: 50px;
+}
+.form__education {
+  width: 150px;
+  height: 40px;
+  background-color: ghostwhite;
+}
+.form__education-subtitle {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 15px;
+  border-left: 15px solid #4171a3;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form__education-text {
+  font-size: 15px;
+  font-weight: 800;
+  position: relative;
+  top: 10px;
+  line-height: 30px;
+  color: #413d3d;
+}
+.form__skills {
+  width: 150px;
+  height: 50px;
+  background-color: ghostwhite;
+  position: relative;
+  top: 70px;
+}
+.form__skills-subtitle {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 15px;
+  border-left: 15px solid #4171a3;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: relative;
+}
+.form__skills-icons {
+  width: 100px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 10%;
+}
+.form__skills-icons img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.form__skills-title {
+  font-size: 50px;
+  color: #caa70b;
+}
+.form__skills__project1 {
+  width: 200px;
+  height: 100px;
+  background-image: url("../image/Cloud.png") center;
+  background-size: cover;
+}
+.form__project1 {
+  border-radius:10px;
+  width: 200px;
+  height: 100px;
+  background: url("../image/Cloud.png") center;
+  background-size: cover;
+}
+.form__project2 {
+  border-radius:10px;
+  width: 200px;
+  height: 100px;
+  background: url("../image/todo.png") center;
+  background-size: cover;
+}
+.form__project3 {
+  border-radius:10px;
+  width: 200px;
+  height: 100px;
+  background: url("../image/weather.png") center;
+  background-size: cover;
+}
+.form__project4 {
+  border-radius:10px;
+  width: 200px;
+  height: 100px;
+  background: url("../image/movie.png") center;
+  background-size: cover;
+}
+.form__smart{
+ position: relative;
+ top: 10px;
+ left: 70px;
+ text-decoration: none;
+ color: ghostwhite;
+}
+.block {
+  padding: 50px;
+  display: flex;
+  column-gap: 33%;
+}
+
+.block2{
+   position: relative;
+   right: 85%;
+   padding: 50px;
+   display: flex;
+   column-gap: 33%;
+}
