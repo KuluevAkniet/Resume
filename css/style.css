@@ -4,7 +4,7 @@
 }
 .header{
   width: 20%;
-  height: 100vh;
+  height: 101%;
   background:#597da3;
 }
 
@@ -159,8 +159,113 @@
 }
 
 .main2{
-  position: absolute;
-  left: 70%;
-  bottom:92%
+  position:absolute;
+  left: 56%;
+  bottom:28%;
+  width: 40%;
+  height: 50%;
+  background:#597da3;
+  border-radius:10px;
 }
+
+.main2__block{
+  width:auto;
+  height:10%;
+  background-color:rgba(221, 212, 212, 0.849);
+  border-radius:10px;
+}
+
+.main2__portfolio{
+  display: flex;
+  justify-content: center;
+  padding-left: 12%;
+  padding-top: 5%;
+}
+
+
+.first__portfolio{
+  width:50%;
+  height: auto;
+}
+
+
+.second__portfolio{
+  width: 50%;
+  height: auto;
+
+}
+
+.main2__title{
+   padding-top: 1%;
+   font-size: 200%;
+   text-align: center;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main2__cloud{
+  width: 70%;
+  height: 150px;
+  background:url('../image/Cloud.png')center;
+  background-size:cover;
+}
+.main2__weather{
+  width:70%;
+  height: 150px;
+  background:url('../image/weather.png')center;
+  background-size:cover;
+}
+.main2__todolist{
+  width:70%;
+  height: 150px;
+  background:url('../image/todo.png')center;
+  background-size:cover;
+  position: relative;
+  top: 8%;
+
+}
+.main2__movie{
+  width: 70%;
+  height: 150px;
+  background:url('../image/movie.png')center;
+  background-size:cover;
+  position: relative;
+  top: 8%;
+}
+
+
+.main2__project1{
+  color:ghostwhite;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  top: 4%;
+}
+.main2__project2{
+  color:ghostwhite;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  top: 10%;
+
+}
+.main2__project3{
+  color:ghostwhite;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  top: 4%;
+}
+.main2__project4{
+  color:ghostwhite;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  top: 10%;
+}
+
+.main2__project:hover{
+    border-bottom: 1px solid ghostwhite;
+}
+
+
 
